@@ -96,22 +96,22 @@ _STMicroelectronics, Rousset, France_
 `2024`
 Embedded connected electronic paper display monitor to watch energy prices
 
-_Raspberry Pi Zero, Python_
+>Raspberry Pi Zero, Python
 
 `2023`
 Customisation of 3D printer, to make it more robust and enhance its capabilities
 
-_Ender 3, Klipper, Raspberry Pi_
+>Ender 3, Klipper, Raspberry Pi
 
 `2018`
 Code execution on Nintendo Switch
 
-_dnsmasq, webkit, Javascript_
+>dnsmasq, webkit, Javascript
 
 `2010`
 Computer vision proof of concept, a robotic turret in LEGO, with object recognition and automatic aiming capabilities
 
-_OpenCV, Python, C++, Arduino_
+>OpenCV, Python, C++, Arduino
 
 ## Domains
 
