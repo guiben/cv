@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -53,20 +53,54 @@ table {
 
 body {
 	font: normal normal 400;
-	font-size: 100%;
+	font-size: 80%;
 	line-height: 1.5em;
+	/*also written as...  font: normal normal 400 100%/1.5em;*/
   background-color: #1b1b1b;
   color: #d4be98;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
-	font-family: Avenir,Verdana,sans-serif;
+	font-family: Verdana,sans-serif;
 	margin-top: 1em;
 	margin-left: 1em;
 }
 
-ul {
+p {
+	position: relative;
+	left: 33%;
+	margin-bottom: 0.7em;
+	margin-right: 0;
+	width: 65%;
+}
+
+code {
+	font: normal normal;
+	font-size: 80%;
+	/*line-height: 1em;*/
+	font-family: Menlo,monospace,sans-serif;
+	color: #ddc7a1;
+}
+
+p code {
+	position: absolute;
+	left: -6em;
+  background: #4f422e;
+  width: 4em;
+}
+
+
+ul { 
+	position: relative;
+	left: 33%;
+	width: 65%;
 	margin-bottom: 1.5em;
 	margin-top: -0.5em;
 }
+
+/*uncomment to get dashes in the list*/
+/*li:before {
+	content: "-";
+	position: relative;
+	left: -0.25em;
+}*/
 
 li {
 	/*second line indent*/
@@ -76,70 +110,120 @@ li {
 }
 
 li ul {
+	position: relative;
+	left: 0;
 	width: 100%;
 	margin-top: 0.25em;
 }
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: Avenir,Cousine,Verdana,sans-serif;
-	width: 80%;
+	font-family: Cousine,Verdana,sans-serif;
+	width: 65%;
   color: #a9b665;
 }
 
 h1 {
 	text-align: left;
 	font-size: 3em;
-	line-height: 2em;
+	line-height: 1em;
+  width: 100%;
 }
 
-h1+p {
-	/*subtitle*/
-	font-style: italic;
-	font-size: 110%;
+h1+p { 
+  position: relative;
+  left: 0;
+	text-align: left;
+	font-size: 1em;
+	line-height: 1em;
+  width: 100%;
+}
+
+h1+p::after {
+  display: none;
 }
 
 h2 {
 	font-size: 1.1em;
 	color: #e78a4e;
 	margin-top: 3em;
-  margin-bottom: 1em;
+	position: relative;
+	top: 1.4em;
 	width: 20%;
 }
 
 h3 {
 	font-size: 1em;
-	line-height: 2em;
+	line-height: 2em; 
+	position: relative;
+	top: 1.7em;
 	text-align: right;
 	width: 20%;
 }
 
+a {
+	color: inherit;
+	/*text-decoration:none*/
+}
+
+a:hover {
+	color:#39f
+}
+
+#webaddress {
+	margin-top: 1em;
+	position: relative;
+	left: 33%;
+	color: #aaa;
+	font-family: Menlo,monospace,sans-serif;
+	font-size: 80%;
+}
+
+#webaddress a {
+	text-decoration: none;
+}
+
 em {
+	font-weight: lighter;
 	font-style: italic;
+  text-align: right;
+  display: block;
+}
+
+#content {
+  width: 33%;
+  margin: 0 auto;
 }
 
 strong {
-	font-weight: bold;
-}
-
-p em {
+	font-weight: 300;
+  display: block;
   color: #d8a657;
-  text-align: right;
-  margin-right: 3em;
-  display: block;
+  text-align: center;
 }
 
-code {
-  text-align: right;
-  margin-right: 3em;
-  display: block;
-}
-
-p code {
-  color: #ea6962;
+#address {
+	display: none;
 }
 
 blockquote {
-  color: #a9b665;
-  font-style: italic;
+  /* color:  */
+  text-align: center;
+  display: block;
 }
+
+p::after {
+  content: '';
+  position: absolute;
+  width: 0.5em;
+  background-color: #4f422e;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: -2em;
+}
+
+/*
+@media only screen and (max-width: 480px) {
+	make one column somehow...
+}*/
