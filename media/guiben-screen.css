@@ -92,7 +92,7 @@ ul {
 	left: 33%;
 	width: 65%;
 	margin-bottom: 1.5em;
-	margin-top: -0.5em;
+	/* margin-top: -0.5em; */
 }
 
 /*uncomment to get dashes in the list*/
@@ -104,8 +104,6 @@ ul {
 
 li {
 	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
 	/*color: #777;*/
 }
 
@@ -191,15 +189,21 @@ em {
 }
 
 #content {
-  width: 73%;
+  width: 53%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 1400px) {
+  #content {
+    width: 73%;
+    margin: 0 auto;
+  }
 }
 
 strong {
 	font-weight: 300;
   display: block;
   color: #d8a657;
-  text-align: center;
 }
 
 #address {
@@ -212,6 +216,7 @@ blockquote {
   display: block;
 }
 
+ul::after,
 p::after {
   content: '';
   position: absolute;

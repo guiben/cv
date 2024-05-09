@@ -7,13 +7,10 @@ Software developer / devops / devsecops
 
 ## Profile
 
-33 years old software developer and devops passionate about open-source whether it's software or hardware.
-
-As a perfectionist, I am in favour of fast, clean, tested, aesthetic and secure code.
-
-Curious by nature, I have the need to continuously learn new and different things.
-
-I am a data enthusiast, I enjoy understanding how things work, both hardware and software, this lead me to several projects gravitating around it.
+- 33 years old software developer and devops passionate about open-source whether it's software or hardware.
+- As a perfectionist, I am in favour of fast, clean, tested, aesthetic and secure code.
+- Curious by nature, I have the need to continuously learn new and different things.
+- I am a data enthusiast, I enjoy understanding how things work, both hardware and software, this lead me to several projects gravitating around it.
 
 ## Education
 
@@ -52,11 +49,11 @@ Middleware development in military context
 _DIGINEXT / CS Group, Aix-en-Provence, France_
 
 `2017`
-Back-end & front-end development
-DVB muxer development
-Middleware development
-Security Integration and software hardening done on Canal+ and Sky IT projects using Nagra and Cisco specifications
-User interface development
+- Back-end & front-end development
+- DVB muxer development
+- Middleware development
+- Security Integration and software hardening done on Canal+ and Sky IT projects using Nagra and Cisco specifications
+- User interface development
 **Javascript, Python, C, C++, Bash**
 _Wyplay, Allauch, France_
 
@@ -70,6 +67,7 @@ Portage from Java to C of a chip randomness quality verifier
 **C, Java**
 _STMicroelectronics, Rousset, France_
 
+<div style="page-break-after: always;"></div>
 
 ## Projects
 
@@ -88,6 +86,8 @@ Code execution on Nintendo Switch
 `2010`
 Computer vision proof of concept, a robotic turret in LEGO, with object recognition and automatic aiming capabilities
 **OpenCV, Python, C++, Arduino**
+
+<div style="page-break-after: always;"></div>
 
 ## Domains
 
@@ -129,9 +129,10 @@ Computer vision proof of concept, a robotic turret in LEGO, with object recognit
 - Computering
 - IT Security
 
-![qr code](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEIAQMAAACZOPi8AAAABlBMVEUAAAD///+l2Z/dAAAAAnRS
-TlP//8i138cAAAAJcEhZcwAACxIAAAsSAdLdfvwAAADfSURBVGiB7dXRDcNACANQ77+0qwabI1Xa
-DmColOS494WAgv8CK1asWPFdoIL1mJlQcSvN+2tmEoVKhfrhZLKFemjFFC5bstBTyfuMBQqMSrle
-zzs5Qjg8SvdknvBWYb09S7cOShJnmq5qdQsxVEAXVbGSdcwUVJX0KfGxYYLEbBvxcRkoTiPVgiG7
-gSKFNkrL5qGiB6swAf8npQpn3ETwVCWKUa4epWQBzdPZLpAKFV0atY9PsaK2ba8X1Y/xooPUgCUL
-6kFoymKFnU7XbbBQ16hu9IpJFT9jxYoVK57jBWc3kbKOEC2RAAAAAElFTkSuQmCC)
+## QR Code of this CV
+![qr code](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIAQMAAACXljzdAAAABlBMVEUbGxvUvphSTDg2AAAAAWJL
+R0QAiAUdSAAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAMtJREFUWMPdmFkOxDAIQ33/SzMLmGXmBK9U
+itK8/FgQh1bKiBziHbpBI/F9q6XPrFawpCQqnxzEJ5W7ZxHLJZOqRJfgf42yiJZC67wegiJR4RKc
+BSbxaSqX0HI+JJkqbCN3KpFEGk018T4kCd9Jk69WSSQ7XXnU1P0Qkqx2Lpq6hwAS58k71q2EJNfM
+1Q7OJVq20SkMKFkyqwR3gfLImFw7Reh+77FIN0Rq+2OT6lP1eyXRyfmjIMFJTJcXy+KB5PQLx/+Q
+5OodB2SSF4O/H2C9muqPAAAAAElFTkSuQmCC)
