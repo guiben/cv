@@ -84,7 +84,7 @@ Code execution on Nintendo Switch
 **dnsmasq, webkit, Javascript**
 
 `2010`
-Computer vision proof of concept, a robotic turret in LEGO, with object recognition and automatic aiming capabilities
+Computer vision proof of concept, a LEGO robotic turret, with object recognition and automatic aiming capabilities
 **OpenCV, Python, C++, Arduino**
 
 <div style="page-break-after: always;"></div>
